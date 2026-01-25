@@ -1,0 +1,14 @@
+name = "CUTE"
+uuid = "22d48476-2aa4-4386-b0d3-c246ace34972"
+version = "0.1.0"
+authors = ["Giovanni Karra <karragiovanni@gmail.com>"]
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+
+[compat]
+CSV = "0.10.15"
+DataFrames = "1.8.1"
+JuMP = "1.29.4"
