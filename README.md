@@ -7,7 +7,9 @@ This package provides a [JuMP](https://jump.dev) interface to the [CUTE](https:/
 
 To install, simply run
 
-```pkg> add https://github.com/GiovanniKarra/CUTE.jl.git```
+```
+pkg> add https://github.com/GiovanniKarra/CUTE.jl.git
+```
 
 Maybe soon it will be available as a full Julia package :)
 
