@@ -3,7 +3,7 @@
 This package provides a [JuMP](https://jump.dev) interface to the [CUTE](https://arnold-neumaier.at/glopt/coconut/Benchmark/Library2_new_v1.html) optimisation problem set.
 
 
-## Installing
+## Installation
 
 To install, simply run
 
