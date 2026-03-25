@@ -32,4 +32,4 @@ param x_init := 1 -1 2 0 3 0;
 
 solve;
 display f;
-dispaly x;
+display x;

@@ -9,7 +9,8 @@ import CUTE
 			@test try
 				model = CUTE.get_model(problem.name)
 				true
-			catch
+			catch e
+				println(e)
 				false
 			end
 		end
