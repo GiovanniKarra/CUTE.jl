@@ -1,4 +1,4 @@
-# CUTE.jl
+# CUTEJuMP.jl
 
 This package provides a [JuMP](https://jump.dev) interface to the [CUTE](https://arnold-neumaier.at/glopt/coconut/Benchmark/Library2_new_v1.html) optimisation problem set.
 
@@ -8,7 +8,7 @@ This package provides a [JuMP](https://jump.dev) interface to the [CUTE](https:/
 To install, simply run
 
 ```
-pkg> add https://github.com/GiovanniKarra/CUTE.jl.git
+pkg> add https://github.com/GiovanniKarra/CUTEJuMP.jl.git
 ```
 
 Maybe soon it will be available as a full Julia package :)
@@ -16,12 +16,12 @@ Maybe soon it will be available as a full Julia package :)
 
 ## Usage
 
-To get the full collection of CUTE problems :
+To get the full collection of CUTEJuMP problems :
 
 ```julia
-import CUTE
+import CUTEJuMP
 
-problems = CUTE.get_all_problems()
+problems = CUTEJuMP.get_all_problems()
 ```
 
 where `problems` is a `Vector` of `Problem`
@@ -43,16 +43,16 @@ end
 To get a specific problem :
 
 ```julia
-import CUTE
+import CUTEJuMP
 
-problem = CUTE.get_problem("3pk")
+problem = CUTEJuMP.get_problem("3pk")
 ```
 
 And to get the `JuMP` model :
 
 ```julia
-import CUTE
+import CUTEJuMP
 
-problem = CUTE.get_problem("3pk")
-model = CUTE.get_model(problem.name)  # Or simply CUTE.get_model("3pk")
+problem = CUTEJuMP.get_problem("3pk")
+model = CUTEJuMP.get_model(problem.name)  # Or simply CUTEJuMP.get_model("3pk")
 ```

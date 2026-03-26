@@ -1,13 +1,13 @@
 using Test
-import CUTE
+import CUTEJuMP
 
 
 @testset "all" begin
-	for name in CUTE.list_names()
-		problem = CUTE.get_problem(name)
+	for name in CUTEJuMP.list_names()
+		problem = CUTEJuMP.get_problem(name)
 		@testset "$name" begin
 			@test try
-				model = CUTE.get_model(problem.name)
+				model = CUTEJuMP.get_model(problem.name)
 				true
 			catch e
 				println(e)
