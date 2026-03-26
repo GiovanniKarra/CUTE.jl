@@ -1,4 +1,4 @@
-module CUTE
+module CUTEJuMP
 
 export list_names
 export get_problem
