@@ -84,7 +84,7 @@ function get_model(name::AbstractString)::JuMP.Model
 	try
 		load_nl_file(joinpath(@__DIR__, "..", "data", "NL", "$(name).nl"))
 	catch e
-		throw(error("This model cannot be loaded by the current version of the NL file parser" * "\n $e"))
+		throw(error("This model cannot be loaded by the current version of the NL file parser" * "\n$e"))
 	end
 end
 
